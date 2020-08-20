@@ -1,0 +1,16 @@
+<h1>hello world   <%=foo %>  </h1>
+ <ul>
+    <% foo.forEach(element => { %>
+
+<% if (element.name==="vicky") { %>
+    <li><%= element.name %> </li>
+    
+
+<% } else { %>
+    <%= 'kooo' %> 
+    <% } %>
+ 
+   
+     <% }) %>
+ </ul>
+ <h3>this is the child view file</h3>
